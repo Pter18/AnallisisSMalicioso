@@ -1,0 +1,10 @@
+Modo de uso:
+
+---- Cifrado ----
+./DecodeVBN.py -c Tcpview.exe 0x40
+
+---- Decifrado Fuerza bruta -----
+./DecodeVBN.py -d 57051719012442.VBN
+
+---- Decifrado con llave ----
+./DecodeVBN.py -d 57051719012442.VBN 0x40
