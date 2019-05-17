@@ -87,9 +87,9 @@ def conversion_bin_hex(xor):
     '''
     Funcion que nos ayuda a convertir de binario a hexadecimal
     '''
-	valorhex = hexlify(xor).upper()
+    valorhex = hexlify(xor).upper()
 
-	return valorhex
+    return valorhex
 
 def archivoOriginal(valorhex,tipoArchivo):
     '''
@@ -110,10 +110,10 @@ def conversion_hex_bin(valorhex):
     '''
     Funcion que nos ayuda a convertir de hexadecimal a binario
     '''
-	operxor = bytes(valorhex)
-	operxor = (binascii.unhexlify(operxor))
+    operxor = bytes(valorhex)
+    operxor = (binascii.unhexlify(operxor))
 
-	return operxor
+    return operxor
 
 def writeOriginalFile(fileBin,fileName):
     '''
